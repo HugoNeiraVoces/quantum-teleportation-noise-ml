@@ -24,7 +24,7 @@ This project explores:
 
 ---
 
-▶️ **Reproducibility and Usage (Google Colab)**
+▶️ **Reproducibility and Usage**
 
 The project is designed to be executed in Google Colab.  
 
@@ -45,7 +45,7 @@ Due to the probabilistic nature of quantum measurements and noise simulations, r
 
 ---
 
-⚠️ **Notes on Language and Reproducibility**
+⚠️ **Notes on Language**
 
 Some variable names, comments, and outputs in the notebook remain in Spanish.  
 The code was originally developed and executed in Spanish and later partially translated for readability.
