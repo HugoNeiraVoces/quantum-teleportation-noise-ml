@@ -34,12 +34,11 @@ The notebook includes:
 - Google Drive mounting for loading and saving datasets and trained models
 - Explicit paths adapted for Colab environments
 
-**Recommended workflow:**
+**Recommendations:**
 
 1. Open `Teleportation.ipynb` in Google Colab
-2. Mount Google Drive when prompted
-3. Load datasets from the `data/` directory in Drive
-4. Load or save trained models in the `models/` directory
+2. Download datasets from the `data` directory
+3. Downloas trained models from the `models` directory
 
 Due to the probabilistic nature of quantum measurements and noise simulations, re-running the full notebook may produce different numerical results.
 
