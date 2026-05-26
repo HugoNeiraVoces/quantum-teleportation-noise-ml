@@ -1,6 +1,10 @@
 # Predicción de la Eficiencia en Teleportación Cuántica en Presencia de Ruido / Quantum Teleportation Efficiency Prediction Under Noise
 
+Este repositorio contiene el código desarrollado para mi **Trabajo de Fin de Grado (TFG)** titulado *"Predicción de la Eficiencia en Teleportación Cuántica en Presencia de Ruido Mediante Aprendizaje Automático e Inteligencia Artificial Explicable"*, correspondiente al **Grado en Física** de la **Universidad Europea de Madrid**.
+
 Este proyecto combina la **Computación Cuántica**, el **Aprendizaje Automático (Machine Learning)** y la **Inteligencia Artificial Explicable (XAI)** para modelar, predecir e interpretar el impacto del ruido cuántico real sobre la fidelidad en el protocolo de teleportación cuántica.
+
+This repository contains the code developed for my **Undergraduate Thesis (TFG)** titled *"Predicción de la Eficiencia en Teleportación Cuántica en Presencia de Ruido Mediante Aprendizaje Automático e Inteligencia Artificial Explicable"*, for the **BSc in Physics** at **Universidad Europea de Madrid**.
 
 This project combines **Quantum Computing**, **Machine Learning**, and **Explainable Artificial Intelligence (XAI)** to model, predict, and interpret the impact of real quantum noise on fidelity within the quantum teleportation protocol.
 
