@@ -6,7 +6,7 @@ This project combines **Quantum Computing**, **Machine Learning**, and **Explain
 
 ---
 
-## 🇪🇸 ESPAÑOL
+## ESPAÑOL
 
 ### ⚠️ Nota Importante de Ejecución
 > **¡ADVERTENCIA!** No se recomienda ejecutar el notebook por completo. El código incluye conexiones y recolección de métricas de calibración de computadores cuánticos reales de IBM. Debido a que los niveles de ruido y las propiedades físicas de los chips cuánticos varían constantemente en el tiempo, volver a ejecutar las mediciones en vivo generará datos e intensidades de ruido distintas a las presentadas en el estudio original, alterando los resultados.
@@ -26,7 +26,7 @@ El proyecto simula el circuito clásico de teleportación cuántica (Alice y Bob
 
 ---
 
-## 🇬🇧 ENGLISH
+## ENGLISH
 
 ### ⚠️ Important Execution Note
 > **WARNING!** It is not recommended to run the notebook in its entirety. The code includes connections and metrics collection from real IBM quantum computers. Because noise levels and quantum chip calibrations fluctuate constantly over time, re-running live measurements will generate different data and noise patterns than those analyzed in the original study, altering the final results.
