@@ -20,7 +20,7 @@ El proyecto simula el circuito clásico de teleportación cuántica (Alice y Bob
 
 1. **Simulación Cuántica con Ruido:** Modelado de errores cuánticos reales (relajación térmica, amortiguamiento de amplitud - *amplitude damping*, errores unitarios coherentes y errores de lectura - *readout errors*).
 
-![Circuito Cuántico de Teleportación](images/teleportación.png)
+![Circuito Cuántico de Teleportación](imagenes/teleportación.png)
    
 2. **Aprendizaje No Supervisado (Clustering):** Segmentación y análisis exploratorio del comportamiento del ruido mediante algoritmos como *K-Means*, *Agglomerative Clustering* y *Mean Shift*.
 3. **Modelos Predictivos (Supervisado):** Regresión de la fidelidad del estado teleportado
@@ -43,7 +43,7 @@ The project simulates the classic quantum teleportation circuit (Alice and Bob) 
 
 1. **Noisy Quantum Simulation:** Modeling of realistic quantum errors (thermal relaxation, amplitude damping, coherent unitary errors, and readout errors).
 
-![Circuito Cuántico de Teleportación](images/circuito.png)
+![Circuito Cuántico de Teleportación](imagenes/circuito.png)
 
 2. **Unsupervised Learning (Clustering):** Profiling and exploratory analysis of quantum noise behaviors using *K-Means*, *Agglomerative Clustering*, and *Mean Shift*.
 3. **Predictive Models (Supervised):** Regressing the fidelity of the teleported state
