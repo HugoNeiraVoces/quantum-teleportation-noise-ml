@@ -19,6 +19,9 @@ This project combines **Quantum Computing**, **Machine Learning**, and **Explain
 El proyecto simula el circuito clásico de teleportación cuántica (Alice y Bob) bajo diversos canales de error utilizando **Qiskit**, procesa los resultados mediante técnicas de Machine Learning y aplica interpretabilidad para entender la degradación de los estados cuánticos.
 
 1. **Simulación Cuántica con Ruido:** Modelado de errores cuánticos reales (relajación térmica, amortiguamiento de amplitud - *amplitude damping*, errores unitarios coherentes y errores de lectura - *readout errors*).
+
+![Circuito Cuántico de Teleportación](images/teleportación.png)
+   
 2. **Aprendizaje No Supervisado (Clustering):** Segmentación y análisis exploratorio del comportamiento del ruido mediante algoritmos como *K-Means*, *Agglomerative Clustering* y *Mean Shift*.
 3. **Modelos Predictivos (Supervisado):** Regresión de la fidelidad del estado teleportado
 4. **Inteligencia Artificial Explicable (XAI):** Descifrado del modelo predictivo utilizando **SHAP** para cuantificar el impacto individual de cada tipo de error o compuerta sobre la pérdida de fidelidad.
@@ -39,6 +42,9 @@ El proyecto simula el circuito clásico de teleportación cuántica (Alice y Bob
 The project simulates the classic quantum teleportation circuit (Alice and Bob) under multiple error channels using **Qiskit**, processes the resulting dataset through Machine Learning pipelines, and leverages interpretability tools to inspect quantum state degradation.
 
 1. **Noisy Quantum Simulation:** Modeling of realistic quantum errors (thermal relaxation, amplitude damping, coherent unitary errors, and readout errors).
+
+![Circuito Cuántico de Teleportación](images/circuito.png)
+
 2. **Unsupervised Learning (Clustering):** Profiling and exploratory analysis of quantum noise behaviors using *K-Means*, *Agglomerative Clustering*, and *Mean Shift*.
 3. **Predictive Models (Supervised):** Regressing the fidelity of the teleported state
 4. **Explainable AI (XAI):** Auditing the predictive models using **SHAP** to quantify how individual hardware parameters and gate errors impact final state fidelity.
