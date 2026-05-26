@@ -1,54 +1,47 @@
-# Quantum-Teleportation-Noise-ML
-Predicting quantum teleportation fidelity under noise using classical machine learning.
+# Predicción de la Eficiencia en Teleportación Cuántica en Presencia de Ruido / Quantum Teleportation Efficiency Prediction Under Noise
+
+Este proyecto combina la **Computación Cuántica**, el **Aprendizaje Automático (Machine Learning)** y la **Inteligencia Artificial Explicable (XAI)** para modelar, predecir e interpretar el impacto del ruido cuántico real sobre la fidelidad en el protocolo de teleportación cuántica.
+
+This project combines **Quantum Computing**, **Machine Learning**, and **Explainable Artificial Intelligence (XAI)** to model, predict, and interpret the impact of real quantum noise on fidelity within the quantum teleportation protocol.
 
 ---
 
-📌 **Overview**
+## 🇪🇸 ESPAÑOL
 
-This project analyzes quantum teleportation in the presence of noise, combining quantum circuit simulations with classical machine learning techniques to study and classify teleportation performance.
+### ⚠️ Nota Importante de Ejecución
+> **¡ADVERTENCIA!** No se recomienda ejecutar el notebook por completo. El código incluye conexiones y recolección de métricas de calibración de computadores cuánticos reales de IBM. Debido a que los niveles de ruido y las propiedades físicas de los chips cuánticos varían constantemente en el tiempo, volver a ejecutar las mediciones en vivo generará datos e intensidades de ruido distintas a las presentadas en el estudio original, alterando los resultados.
 
-The objective is to understand how noise impacts teleportation fidelity, predict the fidelity of the teleported state, and evaluate whether classical ML models can identify patterns associated with successful and unsuccessful teleportation events.
+### 📋 Características del Proyecto
+El proyecto simula el circuito clásico de teleportación cuántica (Alice y Bob) bajo diversos canales de error utilizando **Qiskit**, procesa los resultados mediante técnicas de Machine Learning y aplica interpretabilidad para entender la degradación de los estados cuánticos.
 
----
+1. **Simulación Cuántica con Ruido:** Modelado de errores cuánticos reales (relajación térmica, amortiguamiento de amplitud - *amplitude damping*, errores unitarios coherentes y errores de lectura - *readout errors*).
+2. **Aprendizaje No Supervisado (Clustering):** Segmentación y análisis exploratorio del comportamiento del ruido mediante algoritmos como *K-Means*, *Agglomerative Clustering* y *Mean Shift*.
+3. **Modelos Predictivos (Supervisado):** Regresión de la fidelidad del estado teleportado
+4. **Inteligencia Artificial Explicable (XAI):** Descifrado del modelo predictivo utilizando **SHAP** para cuantificar el impacto individual de cada tipo de error o compuerta sobre la pérdida de fidelidad.
 
-🧠 **Motivation**
-
-Quantum teleportation is a fundamental protocol in quantum information, enabling the transfer of an unknown quantum state using entanglement and classical communication.  
-In realistic scenarios, however, noise severely degrades performance, particularly on NISQ-era quantum devices.
-
-This project explores:
-
-- The effect of noise on teleportation fidelity
-- The feasibility of classifying teleportation outcomes using classical ML models
-- Which features are most influential in noisy teleportation processes
-
----
-
-▶️ **Reproducibility and Usage**
-
-The project is designed to be executed in Google Colab.  
-
-The notebook includes:
-
-- Automatic installation of required dependencies
-- Google Drive mounting for loading and saving datasets and trained models
-- Explicit paths adapted for Colab environments
-
-**Recommendations:**
-
-1. Open `Teleportation.ipynb` in Google Colab
-2. Download datasets from the `data` directory
-3. Downloas trained models from the `models` directory
-
-Due to the probabilistic nature of quantum measurements and noise simulations, re-running the full notebook may produce different numerical results.
+### 🛠️ Tecnologías Utilizadas
+* **Cuántica:** `qiskit`, `qiskit-aer`, `qiskit-ibm-runtime`, `pylatexenc`.
+* **Machine Learning & Datos:** `scikit-learn`, `xgboost`, `pandas`, `numpy`.
+* **Explicabilidad y Gráficos:** `shap`, `lime`, `matplotlib`, `seaborn`.
 
 ---
 
-⚠️ **Notes on Language**
+## 🇬🇧 ENGLISH
 
-Some variable names, comments, and outputs in the notebook remain in Spanish.  
-The code was originally developed and executed in Spanish and later partially translated for readability.
+### ⚠️ Important Execution Note
+> **WARNING!** It is not recommended to run the notebook in its entirety. The code includes connections and metrics collection from real IBM quantum computers. Because noise levels and quantum chip calibrations fluctuate constantly over time, re-running live measurements will generate different data and noise patterns than those analyzed in the original study, altering the final results.
 
+### 📋 Project Overview
+The project simulates the classic quantum teleportation circuit (Alice and Bob) under multiple error channels using **Qiskit**, processes the resulting dataset through Machine Learning pipelines, and leverages interpretability tools to inspect quantum state degradation.
 
-Only the cells that do not affect the experimental measurements were re-executed during the translation process.
-Cells whose re-execution would alter the results were intentionally left unchanged to preserve the consistency of the reported data and conclusions.
+1. **Noisy Quantum Simulation:** Modeling of realistic quantum errors (thermal relaxation, amplitude damping, coherent unitary errors, and readout errors).
+2. **Unsupervised Learning (Clustering):** Profiling and exploratory analysis of quantum noise behaviors using *K-Means*, *Agglomerative Clustering*, and *Mean Shift*.
+3. **Predictive Models (Supervised):** Regressing the fidelity of the teleported state
+4. **Explainable AI (XAI):** Auditing the predictive models using **SHAP** to quantify how individual hardware parameters and gate errors impact final state fidelity.
+
+### 🛠️ Tech Stack
+* **Quantum:** `qiskit`, `qiskit-aer`, `qiskit-ibm-runtime`.
+* **Machine Learning & Data:** `scikit-learn`, `xgboost`, `pandas`, `numpy`.
+* **Explainability & Plotting:** `shap`, `matplotlib`, `seaborn`.
+
+---
